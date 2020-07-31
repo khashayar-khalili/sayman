@@ -7,6 +7,8 @@
     <title> جزییات یک محصول</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -48,10 +50,19 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-6 col-xs-12">
                         <div class="product-images">
-                            <img src="images/mi-smart-scale-2-3.jpg" alt="" class="img-responsive product-image">
+                            <div class="owl-carousel owl-theme">
+                                <div> <img src="images/mi-smart-scale-2-3.jpg" alt="" class="img-responsive product-image">
+                                </div>
+                                <div> <img src="images/mi-smart-scale-2-2.jpg" alt="" class="img-responsive product-image">
+                                </div>
+                                <div> <img src="images/mi-smart-scale-2-4.jpg" alt="" class="img-responsive product-image">
+                                </div>
+                            </div>
+
                             <div class="tag">ناموجود
                             </div>
                         </div>
+
                     </div>
                     <div class="col-md-7 col-sm-6 col-xs-12">
                         <div class="product-texts">
@@ -77,6 +88,7 @@
                             <span>۴۳۸,۰۰۰</span>
                             <span>ت</span>
                         </div>
+
                         <div class="product-color">
                             <div class="colors">
                                 <div class="circle-color color-white"></div>
@@ -86,17 +98,77 @@
                                 انتخاب رنگ : سفید , آبی
                             </div>
                         </div>
+                        <div class="product-garanty">
+                            <form action="">
+                                <div class="form-group">
+                                    <select class="form-control custom-select c-select" id="garantySlect">
+                                      <option>یک گزینه را انتخاب کنید</option>
+                                      <option>گارانتی ۷ روز بازگشت سایمان دیجیتال </option>
+                                    </select>
+                                </div>
+                            </form>
+                            <hr class="mt-7 mb-7">
+                        </div>
+                        <div class="product-buttons">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12">
+                                    <button type="button" class="btn btn-primary c-primary-button">
+                                        <span><i class="fa fa-plus"></i></span>
+                                        <span class="ml-4">خرید ۴۴۸۰۰۰ ت</span>
+                                    </button>
+                                </div>
+                                <div class="col-md-6 col-xs-12 text-right">
+                                    <button type="button" class="btn btn-secondary c-secondary-button">
+                                        <span><i class="fa fa-balance-scale"></i></span>
+                                        <span class="scale">مقایسه</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-
                 </div>
-
+            </div>
+        </div>
+        <div class="row services text-center">
+            <div class="col-md-3 col-xs-6">
+                <div class="services__icon">
+                    <i class="fa fa-eye fa-4x"></i>
+                </div>
+                <span>ضمانت اصل بودن</span>
+                <div class="services__text">
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="services__icon">
+                    <i class="fa fa-car fa-4x"></i>
+                </div>
+                <span> ارسال سریع کالا</span>
+                <div class="services__text">
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="services__icon">
+                    <i class="fa fa-money fa-4x"></i>
+                </div>
+                <span>پرداخت در محل</span>
+                <div class="services__text">
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="services__icon">
+                    <i class="fa fa-repeat fa-4x"></i>
+                </div>
+                <span>۷روز ضمانت بازگشت</span>
+                <div class="services__text">
+                </div>
             </div>
         </div>
     </div>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src='js/bootstrap.min.js'></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
