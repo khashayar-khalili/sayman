@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,aAFK,CACT,OAAO,CACH,IAAI,CAAC;EACD,UAAU,EAAE,kBAAkB;CACjC",
+    "sources": [
+        "owl-custom.scss"
+    ],
+    "names": [],
+    "file": "owl-custom.css"
+}
