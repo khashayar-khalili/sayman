@@ -1,5 +1,6 @@
     @import "./fonts";
     @import "./owl-custom.scss";
+    @import "./responsive";
     body {
         font-family: "IRANSans";
         direction: rtl;
@@ -180,18 +181,76 @@
     
     #products {
         .item {
+            background: #fcfcfc;
             position: relative;
+            margin-bottom: 10px;
             &__price {
+                margin-bottom: 41px;
                 display: flex;
                 justify-content: space-between;
                 &--right {
-                    background: none !important;
+                    position: absolute;
+                    padding: 9px 15px;
+                    background: #2196f3;
                 }
                 &--left {
+                    background: #2196f3;
                     position: absolute;
                     left: 0;
-                    padding: 8px;
+                    padding: 8px 15px;
+                    transition: 1s;
+                    .arrow {
+                        display: none;
+                    }
+                    &:hover {
+                        .arrow {
+                            display: inline-block;
+                        }
+                    }
                 }
             }
+            &__title {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                text-shadow: 0 0 2px #ccc;
+                &:hover {
+                    color: #2196f3;
+                }
+            }
+            &__sub-title {
+                text-align: center;
+                font-size: 15px;
+                text-shadow: 0 0 2px #ccc;
+                &:hover {
+                    color: #2196f3;
+                }
+            }
+        }
+    }
+    
+    .owl-prev {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        &:hover {
+            background: none !important;
+        }
+        span {
+            font-size: 70px;
+            color: #2196f3;
+        }
+    }
+    
+    .owl-next {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        &:hover {
+            background: none !important;
+        }
+        span {
+            font-size: 70px;
+            color: #2196f3;
         }
     }
