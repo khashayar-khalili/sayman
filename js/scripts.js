@@ -11,12 +11,12 @@ $(document).ready(function() {
             },
             600: {
                 items: 1,
-                nav: false
+                nav: false,
             },
             1000: {
                 items: 1,
 
-                loop: false
+                loop: false,
             }
         }
     });
