@@ -477,4 +477,49 @@ header .header__left-menu i {
   padding-right: 16px;
   padding-left: 20px;
 }
+
+.footer-phone {
+  margin-top: 70px;
+  background-color: #39a1f4;
+  height: 100px;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 18px 0px #6e6d6e;
+          box-shadow: 0px 3px 18px 0px #6e6d6e;
+}
+
+.footer-phone .footer-text {
+  padding: 30px;
+}
+
+.footer-phone .footer-text a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.footer-phone .footer-text a:hover {
+  color: black;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 60px;
+}
+
+.footer-menu .menu {
+  color: #6666;
+  width: 300px;
+  padding: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.footer-menu .menu .menu-item {
+  list-style: none;
+  padding: 5px;
+}
 /*# sourceMappingURL=style.css.map */
